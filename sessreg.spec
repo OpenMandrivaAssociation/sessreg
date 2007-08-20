@@ -1,5 +1,5 @@
 Name: sessreg
-Version: 1.0.2
+Version: 1.0.3
 Release: %mkrel 1
 Summary: Manage utmp/wtmp entries for non
 Group: Development/X11
