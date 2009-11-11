@@ -1,6 +1,6 @@
 Name: sessreg
-Version: 1.0.4
-Release: %mkrel 3
+Version: 1.0.5
+Release: %mkrel 1
 Summary: Manage utmp/wtmp entries for non-init clients
 Group: Development/X11
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
