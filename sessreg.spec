@@ -1,12 +1,12 @@
 Name:		sessreg
-Version:	1.0.7
+Version:	1.0.8
 Release:	1
 Summary:	Manage utmp/wtmp entries for non-init clients
 Group:		Development/X11
-Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License:	MIT
 
-BuildRequires:	libx11-devel >= 1.0.0
+BuildRequires:	pkgconfig(x11)
 BuildRequires:	x11-util-macros >= 1.0.1
 
 %description
@@ -25,7 +25,6 @@ Sessreg is a simple program for managing utmp/wtmp entries for xdm sessions.
 %makeinstall_std
 
 %files
-%defattr(-,root,root)
 %{_bindir}/sessreg
 %{_mandir}/man1/sessreg.*
 
